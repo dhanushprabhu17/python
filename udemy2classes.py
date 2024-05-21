@@ -1,5 +1,5 @@
 class cookie:
-    def __init__(self, color):pp
+    def __init__(self, color):
         self.color=color
     
     def get_color(self):
