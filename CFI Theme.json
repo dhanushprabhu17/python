@@ -1,0 +1,130 @@
+{
+  "name": "CFI Theme",
+  "dataColors": [
+    "#132E57",
+    "#25A2AF",
+    "#3271D2",
+    "#5A1973",
+    "#B7276E",
+    "#ED942D",
+    "#D94545",
+    "#1F995B",
+    "#E6E6E6"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+		"outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 10,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "title": [
+          {
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "heading": "Heading3"
+          }
+        ],
+        "header": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "legend": [
+          {
+            "showTitle": false,
+            "show": true,
+            "position": "Top",
+            "italic": false,
+            "bold": false
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": true
+          }
+        ]
+      }
+    }
+  }
+}
